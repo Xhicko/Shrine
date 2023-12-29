@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Nav_Wrapper{
+    background-color: #000;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #000;
+}
+
+.Nav_Wrapper nav {
+    display: flex;
+}
+
+.Nav_Wrapper nav li {
+    list-style: none;
+}
+
+.Nav_Wrapper nav li a {
+    padding: 0 7px;
+    color: inherit;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Nav_Wrapper nav li a:hover{
+   text-decoration: underline;
+}
+
+button{
+    background: #fff;
+    color: #000;
+    font-family: 'Heebo', sans-serif;
+    border: none;
+    border-radius: 1px;
+    padding: 5px 10px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.Home{
+    margin:  50px auto 0 auto;
+    width: 70%;
+    padding: 5px 15px;
+    background-color: #000;
+}
+
+.Home h3{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Home p{
+    text-align: justify;
+    color: #fff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+}
