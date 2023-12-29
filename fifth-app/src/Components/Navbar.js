@@ -5,8 +5,6 @@ import './index.css'
 
 
 class Navbar extends React.Component{
-    static contextType = ThemeContext;
-
     render(){
        return(
         <ThemeContext.Consumer>
@@ -22,7 +20,10 @@ class Navbar extends React.Component{
                              <li> <Link to="/HardwareEngineering">Hardware Engineering</Link> </li>
                          </nav>
          
-                         <button onClick={changeTheme} style={{background:theme.buttonBg, color:theme.ButtonCl}}>Switch Theme </button>
+                         <button onClick={changeTheme} 
+                         style={{background:theme.buttonBg,
+                         color:theme.ButtonCl,
+                        }}>Switch Theme </button>
                      </div>
                  )
         }}

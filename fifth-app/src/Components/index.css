@@ -17,7 +17,7 @@
     width: 100%;
     top: 0;
     left: 0;
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #00b894;
 }
 
 .Nav_Wrapper nav {
@@ -29,7 +29,7 @@
 }
 
 .Nav_Wrapper nav li a {
-    padding: 0 7px;
+    padding: 0 10px;
     color: inherit;
     font-family: 'Heebo', sans-serif;
     font-size: 1.1rem;
@@ -45,16 +45,18 @@ button{
     background: #fff;
     color: #000;
     font-family: 'Heebo', sans-serif;
-    border: none;
-    border-radius: 1px;
-    padding: 5px 10px;
+    border-color: inherit;
+    border-style: inherit;
+    border:none;
+    border-radius:2px;
+    padding: 7px 10px;
     font-weight: 800;
     cursor: pointer;
 }
 
 .Home{
-    margin:  50px auto 0 auto;
-    width: 70%;
+    margin:  40px auto 0 auto;
+    width: 100%;
     padding: 5px 15px;
     background-color: #000;
 }
@@ -64,6 +66,7 @@ button{
     font-weight: 700;
     font-size: 1.3rem;
     color: #fff;
+    padding: 10px 0 0 0 ;
     text-transform: uppercase;
     text-align: center;
 }

@@ -4,18 +4,19 @@ export const ThemeContext = createContext()
 
 class ThemeContextProvider extends React.Component{
     state = {
-        isDark : false,
+        isDark : true,
         darkTheme:{
-            backgroundColor:'#000',
-            textColor:'#fff',
-            buttonBg:'#fff',
-            ButtonCl:'#000'
+            backgroundColor:'#333333',
+            textColor:'#f5f5f5',
+            buttonBg:'#00b894',
+            ButtonCl:'#fff',
         },
         lightTheme:{
             backgroundColor:'#fff',
-            textColor:'#000',
-            buttonBg:'#000',
-            ButtonCl:'#fff'
+            textColor:'#333333',
+            buttonBg:'#00b894',
+            ButtonCl:'#fff',
+
         }
     }
 
